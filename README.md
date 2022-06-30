@@ -53,3 +53,10 @@ Unnecessary columns are dropped.
 - The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame.
 - The empty values in the movies_with_ratings_df DataFrame are filled with “0”.
 - The movies_with_ratings_df and the movies_df DataFrames are displayed in the ETL_clean_kaggle_data.ipynb file
+## Deliverable 4: Create the Movie Database
+Deliverable Requirements:
+Use your knowledge of Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
+
+- The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png.
+- The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.
+- The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file.
